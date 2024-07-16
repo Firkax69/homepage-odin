@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 :root {
     --white:  #faf9f6;
@@ -56,10 +56,10 @@ h1 {
     font-size: 2.5rem;
 }
 
-/* img {
+img {
     max-width: 100%;
     display: block;
-} */
+}
 
 .corner-sqr {
     display: none;     /* CHAT GPT this */
@@ -108,7 +108,7 @@ h2 {
 }
 
 .project {
-    flex: 0 1 275px;   /* CHATGPT THIS */
+    flex: 0 1 350px;   /* CHATGPT THIS */
     border-radius: 2%;
     overflow: hidden;
     box-shadow: 0 5px 10px var(--blue);
@@ -166,4 +166,4 @@ footer {
 }
 
 
-/*  ********************************   ATTACH PHOTOS TO EACH PROJECT AND GO AHEAD WITH MEDIA QUERIES AND SIZES ****************** */
+/*  ********************************   MAIN <p> dummy text needs replacing with real one AND GO AHEAD WITH MEDIA QUERIES AND SIZES ****************** */
