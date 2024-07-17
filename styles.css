@@ -181,7 +181,7 @@ footer {
         max-width: 300px;
         left: 50%;
         top: 50%;
-        transform: translate(-95%, -70%);
+        transform: translate(-97%, -65%);
         z-index: 1;
         position: absolute;
     }
@@ -201,13 +201,14 @@ footer {
         background-color: var(--gray);
         position: absolute;
         left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);    /*  all of this Needs GPT this */    
+        top: 48%;
+        transform: translate(-50%, -42%);    /*  all of this Needs GPT this */    
     }
 
     .about-me-heading {
         text-align: right;
-        margin-right: 50px;
+        margin-right: 20px;
+        margin-top: 20px;
     }
 
     .corner-sqr {
@@ -215,6 +216,7 @@ footer {
         display: inline;
         width: 230px;
         height: 160px;          /*  all of this Needs GPT this what is this for??? */    
+        float: left;
     }
 
     .about-me-icons {
@@ -256,6 +258,6 @@ footer {
 
     .about-me-heading {
         text-align: right;
-        padding-right: 50%;
+        padding-right: 40%;
     }
 }
