@@ -221,14 +221,14 @@ footer {
         display: none;
     }
 
-    footer {
+    footer {            /*  what role is this playing? */
         display: flex;
         align-items: center;
         justify-content: space-around;
-        padding: 20px;     /*  what role is this playing? */    
+        padding: 20px;         
     }
 
-    /* .footer-img-box {
-        max-width: 350px;
-    } */
+    .footer-img-box {
+        max-width: 300px;
+    }
 }

@@ -170,8 +170,15 @@
             </div>
         </div>
         <div class="footer-img-box">
-                                                 <!--  *** TRY TO DO IT YOURSELF, SHOULD BE YOUR SCALABLE IMAGE THRU MEDIA SRCSET AND IMG ALL IN PICTURE TAG *** //  -->
+            <picture>
+                <source
+                    media="(min-width: 600px) and (max-width:900px)"
+                    srcset="./images/photos/ava1-footer-zoom-in.jpg"
+                />
+                <img class="footer-img" src="./images/photos/ava1-footer-zoom-out.jpg" alt="Huge waves break of port and man standing on the edge">
+            </picture>
         </div>
+
     </footer>
 </body>
 </html>
